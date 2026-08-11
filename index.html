@@ -238,7 +238,52 @@
         flex-direction: column;
         justify-content: space-between;
     }
+
+    .rating-card{
+        width: 395px; 
+        height: 257px; 
+        padding: 24px;
+
+        background: #F6F7F9FF; 
+        border-radius: 8px; 
+        box-shadow: 0px 1px 2px #0000001A, 0px 1px 3px #0000001A;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
     
+    .rating-card-nombre{
+        font-family: Outfit; 
+        font-size: 14px; 
+        font-weight: 700;
+        color: #161F2FFF
+    }
+
+    .rating-card-cargo{
+        font-family: Outfit; 
+        font-size: 12px; 
+        line-height: 16px; 
+        font-weight: 400; 
+        color: #696D72FF; 
+    }
+
+    .query{  
+        width: 592px; 
+        height: 60px; 
+
+        transform: rotate(0deg); 
+
+        display: flex;
+        align-items: center;
+
+        font-size: 18px;
+        font-weight: 600; 
+        color: #161F2FFF;
+
+    }
+
+
 
 
 
@@ -447,51 +492,156 @@
 
 
 
-    <section>
-        <h1>Lo que dien nuestros clientes</h1>
+    <section style="height: 553px; display: flex; flex-direction: column; gap: 64px; justify-content: center; align-items: center; ">
+
+        <h1>Lo que dicen nuestros clientes</h1>
+
         <div style="display: flex; flex-direction: row; justify-content: center; gap: 22px;">
+
             <div class="rating-card">
-                <p></p>
-                <p></p>
-                <p></p>
+                <img src="/visily-rating.png" style="  width: 80px; ">
+                <p class="section-subtitle" style="font-style: italic;">"Excelente servicio. Mudaron mi departamento de 3 recámaras en tiempo récord y todo llegó impecable. Muy recomendados."</p>
+                <div style="display: flex; flex-direction: column; justify-content: space-between; height: 57px;">
+                    <hr>
+                    <div style="display: flex; flex-direction: row; align-items: center; gap: 12px;">
+                        <img style="width: 40px; height: 40px; border-radius: 20px; background: #CED0F8FF;">
+                        <div style="display: flex; flex-direction: column;">
+                            <p class="rating-card-nombre">Maria Garcia</p>
+                            <p class="rating-card-cargo">Residente en CDMX</p>
+                        </div>
+                    </div>
+                </div>
             </div>
+
             <div class="rating-card">
-                <p></p>
-                <p></p>
-                <p></p>
+                <img src="/visily-rating.png" style="  width: 80px; ">
+                <p class="section-subtitle" style="font-style: italic;">"Puntuales y muy profesionales. El equipo fue muy amable y cuidaron mucho mis muebles de madera pesados."</p>
+                <div style="display: flex; flex-direction: column; justify-content: space-between; height: 57px;">
+                    <hr>
+                    <div style="display: flex; flex-direction: row; align-items: center; gap: 12px;">
+                        <img style="width: 40px; height: 40px; border-radius: 20px; background: #CED0F8FF;">
+                        <div style="display: flex; flex-direction: column;">
+                            <p class="rating-card-nombre">Carlos Ruiz</p>
+                            <p class="rating-card-cargo">Empresario</p>
+                        </div>
+                    </div>
+                </div>
             </div>
+
+
             <div class="rating-card">
-                <p></p>
-                <p></p>
-                <p></p>
+                <img src="/visily-rating.png" style="  width: 80px; ">
+                <p class="section-subtitle" style="font-style: italic;">"La mejor experiencia de mudanza que he tenido. Me ahorraron mucho estrés con el servicio de empaque."</p>
+                <div style="display: flex; flex-direction: column; justify-content: space-between; height: 57px;">
+                    <hr>
+                    <div style="display: flex; flex-direction: row; align-items: center; gap: 12px;">
+                        <img style="width: 40px; height: 40px; border-radius: 20px; background: #CED0F8FF;">
+                        <div style="display: flex; flex-direction: column;">
+                            <p class="rating-card-nombre">Ana Martinez</p>
+                            <p class="rating-card-cargo">Home Office</p>
+                        </div>
+                    </div>
+                </div>
             </div>
+
+
         </div>
+
     </section>
     <hr>
 
-    <section>
-        <div>
-            <h1></h1>
-            <p></p>
-            <div></div>
-        </div>
-        <div>
-            <div class="query">
-                <p></p>
-            </div>
-            <div class="query">
-                <p></p>
-            </div>
-            <div class="query">
-                <p></p>
-            </div>
-            <div class="query">
-                <p></p>
-            </div>
-        </div>
-    </section>
 
-    <section>
+
+
+
+    <section style="height: 436px; background: #EAECEEFF;  display: flex; flex-direction: row; justify-content: center; align-items: center; gap: 64px;">
+        <div style="  display: flex; flex-direction: column; gap: 33px; width: 594px; ">
+            <h1>Preguntas Frecuentes</h1>
+            <p class="section-subtitle">¿Tiene dudas sobre cómo manejamos sus pertenencias? Aquí respondemos las más comunes. Si no encuentra su respuesta, contáctenos directamente.</p>
+            <div style="
+                width: 592px; 
+                height: 98px; 
+                background: #FFFFFFFF; /* white */
+                border-radius: 12px; 
+                border-width: 1px; 
+                border-color: #D4D6DAFF; 
+                border-style: solid; 
+                box-shadow: 0px 1px 2px #0000001A, 0px 1px 3px #0000001A;
+                
+                padding: 26px; 
+                display: flex; 
+                flex-direction: row; 
+                align-items: center;
+                gap: 25px;">
+                
+                <img src="/visily-container (1).jpg" alt="">
+                <div style="display: flex; flex-direction: column;">
+                    <p style="
+                        font-family: Outfit; 
+                        font-size: 16px; 
+                        line-height: 24px; 
+                        font-weight: 700; 
+                        color: #161F2FFF;
+  ">¿Aún tienes dudas?</p>
+                    <p style="  font-size: 14px; 
+                    line-height: 20px; 
+                    font-weight: 400; 
+                    color: #696D72FF;"
+                    >Llámanos ahora al 333-333-3333 para una asesoría gratuita.</p>
+                </div>
+            </div>
+        </div>
+
+        <div style="display: flex; flex-direction: column;">
+            <div class="query">
+                <p>¿Incluyen el servicio de empaque?</p>
+            </div>
+            <hr>
+            <div class="query">
+                <p>¿Cómo protegen los muebles delicados?</p>
+            </div>
+            <hr>
+            <div class="query">
+                <p>¿Tienen seguro contra daños?</p>
+            </div>
+            <hr>
+            <div class="query">
+                <p>¿Hacen mudanzas fuera de la ciudad?</p>
+            </div>
+            <hr>
+        </div>
+
+    </section>
+    <hr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <section style="height: 754px; width: 1440px; display: flex; align-items: center; justify-content: center;">
+        <div style="
+            width: 1248px; 
+            height: 562px; 
+            background: #F6F7F9FF; 
+            border-radius: 24px; 
+            border-width: 1px; 
+            border-color: #D4D6DAFF; 
+            border-style: solid; 
+            box-shadow: 0px 8px 10px #161F2F1A, 0px 20px 25px #161F2F1A;
+            ">
+
+        </div>
+
         <div style="display: flex; justify-content: center; gap: 47px; padding: 0px 80px;">
             <div style="width: 520px; display: flex; flex-direction: column; gap: 30px;">
                 <h2></h2>
@@ -507,10 +657,17 @@
                 </div>
             </div>
 
-            <img src="" alt="">
+            <img style="width: 520px; height: 400px; border-radius: 15px;">
 
         </div>
+
     </section>
+    <hr>
+
+
+
+
+
 
     <footer style="display: flex; flex-direction: row; gap: 30px;">
         <div></div>
