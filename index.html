@@ -21,6 +21,34 @@
         background: #F6F7F9FF;
     }
 
+    .section-title{
+        font-family: Outfit; 
+        font-size: 32px; 
+        line-height: 40px; 
+        font-weight: 600; 
+        color: #161F2FFF; 
+    }
+
+    .section-subtitle{
+        font-family: Outfit; 
+        font-size: 16px; 
+        line-height: 24px; 
+        font-weight: 400; 
+        color: #696D72FF; 
+    }
+
+    .section-subtitle-bold{
+        font-family: Outfit; 
+        font-size: 16px; 
+        line-height: 24px; 
+        font-weight: 500; 
+        color: #161F2FFF; 
+    }
+
+    hr{
+        border: solid 1px #D4D6DAFF; 
+    }
+
     header{
         width: 100%;
         height: 73px; 
@@ -70,29 +98,6 @@
         height: 100vh;
     }
 
-    .section-title{
-        font-family: Outfit; 
-        font-size: 32px; 
-        line-height: 40px; 
-        font-weight: 600; 
-        color: #161F2FFF; 
-    }
-
-    .section-subtitle{
-        font-family: Outfit; 
-        font-size: 16px; 
-        line-height: 24px; 
-        font-weight: 400; 
-        color: #696D72FF; 
-    }
-
-    .section-subtitle-bold{
-        font-family: Outfit; 
-        font-size: 16px; 
-        line-height: 24px; 
-        font-weight: 500; 
-        color: #161F2FFF; 
-    }
 
     .hero{
         display: flex;
@@ -714,15 +719,57 @@
 
 
 
-    <footer style="display: flex; flex-direction: row; gap: 30px;">
-        <div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
+    <footer style="height: 334px; padding: 48px 96px; display: flex;  flex-direction: column; justify-content: space-between;">
+
+        <div style="display: flex; flex-direction: row; justify-content: space-between;">
+
+            <div style="width: 268px; display: flex; flex-direction: column; gap: 16px;">
+                <div style="display: flex; align-items: center; flex-direction: row; gap: 8px; ">
+                    <img style=" width: 40px; height: 40px; border-radius: 9999px; background: #2E3B50FF;  ">
+                    <h3>Chavez & Chavez</h3>
+                </div>
+                
+                <p>Expertos en mudanzas residenciales y comerciales. Confianza, seguridad y eficiencia en cada kilómetro.</p>
+            </div>
+
+            <div style="display: flex; flex-direction: column; gap: 12px;" class="section-subtitle">
+                <p style="font-size: 16px; font-weight: 600; color: black;">Compañía</p>
+                <p>Sobre nosotros</p>
+                <p>Servicios</p>
+                <p>Testimonios</p>
+            </div>
+
+            <div style="display: flex; flex-direction: column; gap: 12px;" class="section-subtitle">
+                <p style="font-size: 16px; font-weight: 600; color: black;">Legal</p>
+                <p>Política de privacidad</p>
+                <p>Términos de servicio</p>
+                <p>Aviso legal</p>
+            </div>
+
+            <div style="display: flex; flex-direction: column; gap: 12px;" class="section-subtitle">
+                <p style="font-size: 16px; font-weight: 600; color: black;">Contacto</p>
+                <p>+52 (55) 1234-5678</p>
+                <p>hola@chavezmudanzas.com</p>
+                <p>Ciudad de México, México</p>
+            </div>
+
+
         </div>
 
-        <div></div>
+        
+
+
+        <div style="height: 69px;  display: flex; flex-direction: column; justify-content: space-between;">
+            <hr>
+            <div style="display: flex; flex-direction: row; align-items: center; justify-content: space-between;">
+                <p>© 2026 Chavez & Chavez Mudanzas. Todos los derechos reservados.</p>
+                <div style="display: flex; flex-direction: row; gap: 16px;">
+                    <img style="width: 36px; height: 36px; border-radius: 100%; background-color: lightgray;">
+                    <img style="width: 36px; height: 36px; border-radius: 100%; background-color: lightgray;">
+                    <img style="width: 36px; height: 36px; border-radius: 100%; background-color: lightgray;">
+                </div>
+            </div>
+        </div>
     </footer>
 
 </body>
